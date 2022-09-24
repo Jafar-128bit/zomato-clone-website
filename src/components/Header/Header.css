@@ -1,0 +1,111 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header__right {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.header__locationSearch {
+    width: 70%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--primary-box-shadow);
+    border: 1px solid var(--border-white);
+    background-color: var(--primary-bg);
+}
+
+.header__wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.header__iconName {
+    display: flex;
+    color: var(--zomato-gray);
+}
+
+.header__logo {
+    height: 27px;
+    max-width: 140px;
+    margin-right: 20px;
+}
+
+.header__locationIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.header__caretDownIcon {
+    width: 15px;
+    height: 15px;
+}
+
+.header__locationSeparator {
+    height: 20px;
+    border: 0.5px solid var(--gray);
+}
+
+.header__searchBar {
+    display: flex;
+    flex: 2;
+}
+
+.header__searchIcon {
+    width: 20px;
+    height: 20px;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.header__searchIcon:active {
+    transform: scale(0.8);
+    transition: transform 200ms ease 0ms;
+}
+
+.header__inputTextSearch {
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 14px;
+}
+
+.header__profileWrapper {
+    display: flex;
+}
+
+.header__btn {
+    padding: 8px;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    font-family: var(--font-use);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27px;
+    cursor: pointer;
+    color: #696969;
+}
+
+.header__btn:hover {
+    color: #1c1c1c;
+    transition: color 200ms ease 0ms;
+}
+
+.header__btn__margin {
+    margin-right: 20px;
+}

@@ -1,0 +1,97 @@
+.DiningOutCollections {
+    background-color: #f8f8f8;
+    height: 480px;
+}
+
+.DiningOutCollections__cover {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.DiningOutCollections__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 98.5%;
+}
+
+.DiningOutCollections__tagLine {
+    font-size: 21px;
+}
+
+.DiningOutCollections__exploreLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(239, 79, 95);
+    cursor: pointer;
+}
+
+.DiningOutCollections__exploreLink:hover {
+    transition: all 300ms ease 0ms;
+    color: rgb(255, 29, 53);
+    font-size: 19.5px;
+}
+
+.DiningOutCollections__caretRightIcon1 {
+    margin-left: 5px;
+}
+
+.DiningOutCollections__coverCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.position-Class {
+    position: absolute;
+}
+
+.DiningOutCollections__coverImage {
+    height: 100%;
+    object-fit: cover;
+}
+
+.DiningOutCollections__coverTitle {
+    color: #f8f8f8;
+    bottom: 40px;
+    width: 100%;
+    font-size: 20px;
+    padding: 0 16px;
+}
+
+.DiningOutCollections__filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+
+.DiningOutCollections__placesInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    padding: 0 16px;
+}
+
+.DiningOutCollections__placesNumber {
+    color: #f8f8f8;
+    width: 100%;
+    font-size: 20px;
+}
+
+.DiningOutCollections__caretRightIcon2 {
+    height: 12px;
+    margin-left: 5px;
+}

@@ -1,0 +1,39 @@
+.tabOptions {
+    box-shadow: var(--border-white) 0 -0.5px 0 inset;
+}
+
+.tabOptions__optionWrapper {
+    display: flex;
+}
+
+.tabOptions__tabItems {
+    margin-right: 24px;
+    padding: 12px 12px 20px 12px;
+}
+
+.tabOptions__tabIconContainer {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+}
+
+.tabOptions__tabIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.tabOptions__tabName {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #696969;
+}
+
+.active-tab {
+    border-bottom: 2px solid var(--zomato-red);
+}
+
+.active-tab .tabOptions__tabName {
+color: var(--zomato-red);
+}

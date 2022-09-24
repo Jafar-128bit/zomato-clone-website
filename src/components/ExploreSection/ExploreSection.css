@@ -1,0 +1,9 @@
+.ExploreSection {
+    margin-top: 16px;
+}
+
+.ExploreSection__cardLayout {
+    display: grid;
+    gap: 1% 1%;
+    grid-template-columns: 32.6666% 32.6666% 32.6666%;
+}
